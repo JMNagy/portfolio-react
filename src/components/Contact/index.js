@@ -94,7 +94,6 @@ const Contact = () => {
           <br />
           United States,
           <br />
-          Burma Road <br />
           Southbury <br />
           <br />
           <span>johnmcnagydev@gmail.com</span>
