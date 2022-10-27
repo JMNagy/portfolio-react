@@ -1,0 +1,10 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/Calculator/Calc.PNG",
+      "title": "Calculator App",
+      "description": "Javascript",
+      "url": "https://jmnagy.github.io/calculator/"
+    }
+  ]
+}
