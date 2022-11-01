@@ -5,6 +5,20 @@
       "title": "Calculator App",
       "description": "Javascript",
       "url": "https://jmnagy.github.io/calculator/"
+    },
+
+    {
+      "cover": "/portfolio/EtchnSketch/EtchnSketch.PNG",
+      "title": "Etch A Sketch App",
+      "description": "Javascript",
+      "url": "https://jmnagy.github.io/calculator/"
+    },
+
+    {
+      "cover": "/portfolio/RockPaperScissors/rockpaperscissors.PNG",
+      "title": "Rock Paper Scissors Game",
+      "description": "Javascript",
+      "url": "https://jmnagy.github.io/calculator/"
     }
   ]
 }
