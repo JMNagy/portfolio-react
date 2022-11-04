@@ -33,15 +33,21 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a very passionate front-end developer with exposure to back-end
+            looking for the opportunity to join a tech company where I can push
+            myself to utilize new technologies while working on inovative and
+            challenging projects.
           </p>
           <p align="LEFT">
-            I'm quite confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Technology and coding are part of my everyday life and something
+            that I look forward to daily. I devote a lot of my time towards
+            learning so I can create new projects and solve complex problems.
           </p>
-          <p>Place holder text.</p>
+          <p>
+            I come from a background in Design, Illustration and Robotics. I
+            believe that web and software development are a culmination of all
+            of my passions and talents.
+          </p>
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">

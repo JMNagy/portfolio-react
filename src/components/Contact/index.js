@@ -49,9 +49,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am looking for a full time position as a Web or Software
-            Developer. Being able to collaborate with a team of ambitious
-            developers for a great company.
+            I am looking for a full-time position as a Web or Software
+            Developer.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
