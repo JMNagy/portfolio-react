@@ -10,11 +10,13 @@ import {
   faUser,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Lottie from 'lottie-react'
+import ReactLogo from '../../assets/images/react_l.json'
 
 const Sidebar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/home">
-      <img src={LogoS} alt="logo" />
+      <Lottie animationData={ReactLogo} />
       <img className="sub-logo" src={LogoSubtitle} alt="johnmichael" />
     </Link>
     <nav>
