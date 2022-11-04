@@ -4,6 +4,8 @@ import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import './index.scss'
 import Loader from 'react-loaders'
+import Lottie from 'lottie-react'
+import Pcsetup from '../../assets/images/pcsetup.json'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -74,7 +76,9 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div>
+          <Lottie animationData={Pcsetup} />
+        </div>
       </div>
       <Loader type="line-scale" />
     </>
