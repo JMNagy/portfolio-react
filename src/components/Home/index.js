@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
 import './index.scss'
 import Loader from 'react-loaders'
 import Lottie from 'lottie-react'
@@ -49,6 +48,9 @@ const Home = () => {
 
   return (
     <>
+      <div className="">
+        <Lottie animationData={Pcsetup} />
+      </div>
       <div className="container home-page">
         <div className="text-zone">
           <h1>
@@ -75,9 +77,6 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-        </div>
-        <div>
-          <Lottie animationData={Pcsetup} />
         </div>
       </div>
       <Loader type="line-scale" />
