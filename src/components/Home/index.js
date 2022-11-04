@@ -48,7 +48,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="">
+      <div className="pc-animation">
         <Lottie animationData={Pcsetup} />
       </div>
       <div className="container home-page">
