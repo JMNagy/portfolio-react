@@ -22,17 +22,25 @@ const Sidebar = () => (
       <NavLink exact="true" activeclassname="active" to="/portfolio-react/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
       </NavLink>
-      <NavLink activeclassname="active" className="about-link" to="/about">
+      <NavLink
+        activeclassname="active"
+        className="about-link"
+        to="/portfolio-react/about"
+      >
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
       </NavLink>
       <NavLink
         activeclassname="active"
         className="portfolio-link"
-        to="/portfolio"
+        to="/portfolio-react/portfolio"
       >
         <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
       </NavLink>
-      <NavLink activeclassname="active" className="contact-link" to="/contact">
+      <NavLink
+        activeclassname="active"
+        className="contact-link"
+        to="/portfolio-react/contact"
+      >
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
       </NavLink>
     </nav>
