@@ -1,21 +1,21 @@
 {
   "portfolio": [
     {
-      "cover": "/portfolio/Calculator/Calc.PNG",
+      "cover": "../assets/images/portfolio/Calculator/Calc.PNG",
       "title": "Calculator App",
       "description": "Javascript/Tailwind CSS",
       "url": "https://jmnagy.github.io/calculator/"
     },
 
     {
-      "cover": "/portfolio/EtchnSketch/EtchnSketch.PNG",
+      "cover": "../assets/images/portfolio/EtchnSketch/EtchnSketch.PNG",
       "title": "Etch A Sketch App",
       "description": "Javascript",
       "url": "https://jmnagy.github.io/etch-a-sketch/"
     },
 
     {
-      "cover": "/portfolio/RockPaperScissors/rockpaperscissors.PNG",
+      "cover": "../assets/images/portfolio/RockPaperScissors/rockpaperscissors.PNG",
       "title": "Rock Paper Scissors Game",
       "description": "Javascript",
       "url": "https://jmnagy.github.io/rock-paper-scissors/"
