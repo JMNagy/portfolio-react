@@ -14,12 +14,12 @@ import ReactLogo from '../../assets/images/react_l.json'
 
 const Sidebar = () => (
   <div className="nav-bar">
-    <Link className="logo" to="/portfolio-react/">
+    <Link className="logo" to="/portfolio-react/home">
       <Lottie animationData={ReactLogo} />
       <img className="sub-logo" src={LogoSubtitle} alt="johnmichael" />
     </Link>
     <nav>
-      <NavLink exact="true" activeclassname="active" to="/portfolio-react/">
+      <NavLink exact="true" activeclassname="active" to="/portfolio-react/home">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
       </NavLink>
       <NavLink
