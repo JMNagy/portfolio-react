@@ -7,6 +7,7 @@ import {
   faHome,
   faSuitcase,
   faUser,
+  faBars,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Lottie from 'lottie-react'
@@ -60,6 +61,12 @@ const Sidebar = () => (
         </a>
       </li>
     </ul>
+    <FontAwesomeIcon
+      icon={faBars}
+      color="#ffd700"
+      size="3x"
+      className="hamburger-icon"
+    />
   </div>
 )
 
