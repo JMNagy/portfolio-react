@@ -26,6 +26,7 @@ const Sidebar = () => {
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink
+          onClick={() => setShowNav(false)}
           exact="true"
           activeclassname="active"
           to="/portfolio-react/home"
@@ -33,6 +34,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink
+          onClick={() => setShowNav(false)}
           activeclassname="active"
           className="about-link"
           to="/portfolio-react/about"
@@ -40,6 +42,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
+          onClick={() => setShowNav(false)}
           activeclassname="active"
           className="portfolio-link"
           to="/portfolio-react/portfolio"
@@ -47,6 +50,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
         <NavLink
+          onClick={() => setShowNav(false)}
           activeclassname="active"
           className="contact-link"
           to="/portfolio-react/contact"
