@@ -48,8 +48,8 @@ const Home = () => {
 
   return (
     <>
-      <div className="pc-animation">
-        <Lottie animationData={Pcsetup} />
+      <div className="pc-animation-container">
+        <Lottie className="pc-animation" animationData={Pcsetup} />
       </div>
       <div className="container home-page">
         <div className="text-zone">
