@@ -11,7 +11,10 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Navigate to="/portfolio-react/home" />} />
+          <Route
+            path="/portfolio-react"
+            element={<Navigate to="/portfolio-react/home" />}
+          />
           <Route path="/portfolio-react/home" index element={<Home />} />
           <Route path="/portfolio-react/about" index element={<About />} />
           <Route path="/portfolio-react/contact" index element={<Contact />} />
